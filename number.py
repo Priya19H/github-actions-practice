@@ -1,6 +1,6 @@
 #Number
 number = 15
-nn
+
 if number > 0:
     print("The number is positive.")
 elif number < 0:
