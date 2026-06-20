@@ -1,6 +1,6 @@
 name: MyHello
 on:
-    workflow-dispatch:
+    workflow_dispatch:
 
 jobs:
     PrintHello:
