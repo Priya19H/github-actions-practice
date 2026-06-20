@@ -1,11 +1,10 @@
 name: MyHello
-
 on:
     workflow_dispatch:
 
 jobs:
-    PrintHello:
-      runs-on: ubuntu-latest
-      steps:
-        - name: Say hello 
-          run: echo "Hello from Priya"
+    Say hello:
+        runs-on: ubuntu-latest
+            steps:
+                - name: My Hello
+                  run: echo "Hello From Priya"
