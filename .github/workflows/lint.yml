@@ -5,7 +5,7 @@ on:
     paths: "*.py"
 
 jobs:
-  Linter-Job
+  Linter-Job:
     runs-on: ubuntu-latest
     steps:
       - name: Chekout/Clone the code
