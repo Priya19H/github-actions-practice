@@ -6,5 +6,8 @@ jobs:
     Say-hello:
         runs-on: ubuntu-latest
         steps:
-            - name: My Hello
+            - name: Priya Hello
               run: echo "Hello From Priya"
+
+            - name: Avani Hello
+              run: echo "Hello from Avani"
