@@ -3,8 +3,8 @@ on:
     workflow_dispatch:
 
 jobs:
-    Say hello:
+    Say-hello:
         runs-on: ubuntu-latest
-            steps:
-                - name: My Hello
-                  run: echo "Hello From Priya"
+        steps:
+            - name: My Hello
+              run: echo "Hello From Priya"
