@@ -1,5 +1,7 @@
+#Goal
 name: Check Python syntax is correct or not using python linter
 
+#When Workflow should triggered 
 on:
   push:
     paths: "*.py"
@@ -14,7 +16,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: '3.14'
         
       - name: Check Python Linter
         run: pip install ruff
